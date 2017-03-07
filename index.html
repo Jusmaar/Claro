@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Claro Bs</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    
+  </head>
+  <body>
+    <header>
+      <nav class="menu-black">
+        <div class="container">
+          <div class="row middle-xs">
+            <div class="col-xs-5 col-sm-7 col-md-8">
+              <ul class="nav navbar-nav menu1">
+                  <li><a href="#">Personas</a></li>
+                  <li><a class="visible-md visible-sm visible-lg"  href="#">Empresas</a></li>
+                  <li><a class="visible-md visible-sm visible-lg" href="#">Corporaciones</a></li>
+                  <li><a class="visible-md visible-sm visible-lg" href="">Claro video</a></li>
+                  <li class="visible-lg"><a href="#">Claro musica</a></li>
+                  <li class="visible-lg"><a href="#">Claro play</a></li>
+                  <li class="visible-lg"><a href="#">Otros servicios</a></li>
+
+               </ul>
+            </div>
+            <div class="col-xs-7 col-sm-5 col-md-3 col-md-offset-1">
+              <div class="row middle-xs">
+                
+                  
+                    <div class="dropdown col-xs-7">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <i class="fa fa-user-o" aria-hidden="true">Ingresar</i>
+                        <span class="caret"></span>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-left dw-back" aria-labelledby="dropdownMenu1">
+                        <form class="form-group">
+                              <label>Email</label>
+                              <input class="cajatxt form-control " type="text"></input>
+                              <label>Contraseña</label>
+                              <input class="cajatxt form-control " type="password"></input>
+                              <a href="#" class="col-xs-12">¿Olvidaste tu contraseña?</a>
+                              <input class="ingresar btn btn-default col-xs-12" type="submit" value="Ingresar"></input>
+                              <a href="#" class="col-xs-12">Crear una cuenta</a>
+                           </form>
+                      </div>
+                    </div>
+                  
+              
+                
+                  <div class="dropdown col-xs-5 ico-carrito">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-right dw-back" aria-labelledby="dropdownMenu2">
+                        <li>
+                                <img src="images/item1.png">
+                                 <div class="descripcion">
+                                    <p>Sony Audifono X30 Negro</p>
+                                    <p style="float: right;">s/.128.00</p>
+                                    <p >Cantidad 1</p>
+                                 </div></li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                              <img src="images/item2.png">
+                                 <div class="descripcion">
+                                    <p>Sony Tablet Z430 Negro</p>
+                                    <p style="float: right;">s/.728.00</p>
+                                    <p >Cantidad 1</p>
+                                 </div>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                                <img src="images/item3.png">
+                                 <div class="descripcion">
+                                    <p >Motorola Nuevo Moto X Negro</p>
+                                    <p style="float: right;" >s/.3100.00</p>
+                                    <p>Cantidad 1</p>
+                                 </div>
+                        </li>
+                      </ul>
+                  </div>  
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="menu-red">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                &#9776;
+              </button>
+              <img src="images/claro.jpg" class="img-responsive">
+            </div>
+
+           
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav menu2">
+                  <li><a href="">Servicios</a></li>
+                  <li><a href="">Tienda</a></li>
+                  <li><a href="">Soporte</a></li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Buscar en tienda">
+                </div>
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+              </form>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+    </header>
+
+    <section>
+      <div class="slider">
+        <div class="container">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="images/iphone6.jpg" class="img-responsive" alt="imagen1">
+                <div class="info">
+                     <br>
+                     <h2>iPhone6 en </h2>
+                     <h2>prepago Smarkit</h2>
+                     <br>
+                     <p>Descripcion, texto complementario</p> 
+                     <p>del anuncio</p>
+                     <br>
+                     <button>Descubrir</button>
+                     <br>
+                     <br>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco</p>
+                </div>
+
+              </div>
+              <div class="item">
+                <img src="images/s2.jpg" class="img-responsive" alt="imagen2">
+                <div class="info2">
+                     <br>
+                     <br>
+                     <h2>Galaxy S6 edge+</h2>
+                     <h2>NEXT IS NOW</h2>
+                       <br>
+                     <p>Llevatelo a un precio increible</p>
+                       <br>
+                     <button>Descubrir mas</button>
+                     
+                   </div>
+              </div>
+              <div class="item">
+                <img src="images/iphs.jpg" class="img-responsive" alt="imagen3">
+                <div class="info">
+                     <br>
+                     <br>
+                     <h2>iPhone6 S</h2>
+                     <h4>Nuevo lanzamiento</h4>
+                     <p>La unica cosa que cambio es todo</p>
+                       <br>
+                     <button>¡Lo quiero!</button>
+                     
+                  </div>
+              </div>
+              
+            </div>
+
+          
+          </div>
+        </div>
+      </div>
+
+
+    <div class="contenedor-iconos">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 text-center iconos">
+              <figure>
+                <img src="images/cel.jpg" class="img-responsive">
+                <p>Celulares</p>
+              </figure>
+              <figure>
+                <img src="images/tablet.jpg" class="img-responsive">
+                <p>Tablets</p>
+              </figure>
+              
+            </div>
+            <div class="col-xs-12 col-md-4 text-center iconos" >
+              <figure>
+                <img src="images/wifi.jpg" class="img-responsive">
+                <p>Internet movil</p>
+              </figure>
+              <figure>
+                <img src="images/accesorios.jpg" class="img-responsive">
+                <p>Accesorios</p>
+              </figure>
+              
+            </div>
+            <div class="col-xs-12 col-md-4 text-center iconos">
+              <figure>
+                <img src="images/promo.jpg" class="img-responsive">
+                <p>Promociones</p>
+              </figure>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <div class="container">
+        <div class="row center-xs">
+          <div>
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Smartphones</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Economicos</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Promociones</a></li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                  <div class="container tab-esconder">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="carousel-example1" class="carousel slide visible-xs " data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example1" data-slide-to="1"></li>
+                        <li data-target="#carousel-example1" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        ...
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example1" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example1" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+
+
+
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                  <div class="container tab-esconder">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="carousel-example2" class="carousel slide visible-xs " data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example2" data-slide-to="1"></li>
+                        <li data-target="#carousel-example2" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="images/ss7.png" alt="...">
+                          <div class="carousel-caption">
+                            ...
+                          </div>
+                        </div>
+                        ...
+                      </div>
+
+                      <!-- Controls -->
+                      <a class="left carousel-control" href="#carousel-example2" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example2" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="messages">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="mob">
+                           <img src="images/ss7.png">
+                           <p>Samsung</p>
+                           <p>Samsung Galaxy s7</p>
+                           <h2>s/1289.00</h2>
+                           <p>En Prepago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div><button class="btn-m1">Ver todos los smartphones</button></div>
+                <div><button class="btn-m2">¿Necesitas ayuda?</button></div>
+                
+              </div>
+
+            </div>
+        </div>
+      </div>
+
+      <div class="marcas">
+        <div class="container">
+          <div class="row center-xs">
+                  <h2>Compra por marcas populares</h2>
+                  
+          
+          </div>
+          <div class="row center-xs">
+            <br>
+                  <img src="images/apple.jpg" class="img-responsive">
+                  <img src="images/htc.jpg" class="img-responsive">
+                  <img src="images/lg.jpg" class="img-responsive">
+                  <img src="images/nokia.jpg" class="img-responsive">
+                  <img src="images/samsung.jpg" class="img-responsive">
+                  <img src="images/sony.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+
+      <div class="complementos">
+        <div class="container">
+          <div class="row">
+                <div class="col-md-8"><h4>Complementa tu celular</h4></div>
+                <div class="col-md-5"><p>Llevate el accesorio ideal para sacarle provecho a tu equipo</p></div>    
+          </div>
+          <div class="row comp-complementos middle-xs">
+            <div class="col-md-4 text-center">
+              <img src="images/beats.jpg" class="img-responsive">
+              <p>Beats</p>
+              <h2>s/289.00</h2>
+            </div>
+            <div class="col-md-4 text-center" class="img-responsive">
+              <img src="images/beats.jpg">
+              <p>Beats</p>
+              <h2>s/289.00</h2>
+            </div>
+            <div class="col-md-4 text-center" class="img-responsive">
+              <img src="images/beats.jpg">
+              <p>Beats</p>
+              <h2>s/289.00</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="conte-info">
+        <div class="container">
+          <div class="row center-xs">
+            <h4>Compra en linea de forma facil y segura</h4>
+          </div>
+         <div class="row center-xs middle-xs">
+            <div class="col-xs-12 col-md-4 text-center iconos">
+              <figure>
+                <img src="images/camion2.jpg" class="img-responsive">
+                
+              </figure>
+              <figure>
+                <img src="images/dinero2.jpg" class="img-responsive">
+                
+              </figure>
+              
+            </div>
+            <div class="col-xs-12 col-md-4 text-center iconos" >
+              <figure>
+                <img src="images/candado2.jpg" class="img-responsive">
+                
+              </figure>
+              <figure>
+                <img src="images/tarjeta.jpg" class="img-responsive">
+                
+              </figure>
+              
+            </div>
+            <div class="col-xs-12 col-md-4 text-center iconos">
+              <figure>
+                <img src="images/visa.jpg" class="img-responsive">
+                
+              </figure>
+            </div>
+        </div>
+        </div>
+      </div>
+    
+
+
+      <div class="nav-inf">
+        <nav class="nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <ul class="nav navbar-nav">
+                  <li>Personas</li> 
+                  <li>Tienda</li> 
+                  <li>Tienda Prepago</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+
+
+
+
+    </section>
+
+
+    <footer >
+      <div class="fot1">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <br>
+                  <br>
+                  <h5>Servicios al cliente</h5>
+                  <ul>  
+                     <li>Condiciones de Entrega</li>
+                     <li>Formas de Pago</li>
+                     <li>Politicas de Devolucion</li>
+                     <li>Politicas de Privacidad</li>
+                  </ul>
+                  <br>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                  <br>
+                  <br>
+                  <h5>Servicios</h5>
+                  <ul>
+                     <li>Servicios Moviles</li>
+                     <li>Servicios Hogar</li>
+                     <li>Entretenimiento</li>
+                     
+                  </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                  <br>
+                  <br>
+                  <h5>Tienda</h5>
+                  <ul>
+                     <li>Celulares</li>
+                     <li>Tablets</li>
+                     <li>Internet movil</li>
+                     <li>Accesorios</li>
+                     
+                  </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                  <br>
+                  <br>
+                  <h5>Soporte</h5>
+                  <ul>
+                     <li>Movil</li>
+                     <li>Hogar</li>
+                     <li>Mi claro y Facturacion</li>
+                     <li>Puntos de contacto</li>
+                     
+                  </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 ">
+                  <h5>Redes Sociales</h5>
+                  <i class="fa fa-facebook-official redes" aria-hidden="true"></i>
+                  <i class="fa fa-twitter-square redes" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-square redes" aria-hidden="true"></i>
+                  <i class="fa fa-google-plus-square redes" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fot2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-3">
+              <img src="images/claro2.jpg" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-md-offset-3 col-md-6">
+                  <ul class="menu-fot">
+                     <li>Sitio Institucional</li>
+                     <li>Privacidad</li>
+                     <li>Seguridad</li>
+                     <li>Legal y Regulatorio</li>
+                     <li>Otros sitios</li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
